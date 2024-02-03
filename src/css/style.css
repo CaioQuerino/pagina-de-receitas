@@ -11,6 +11,10 @@ body{
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+
+
+
+    
 }
 
 .container .card-nutricional{
@@ -18,8 +22,8 @@ body{
     max-width: 800px;
     display: flex;
     flex-direction: column;
-    padding:50px;
     border-radius: 15px;
+    padding:50px;
 
 }
 
