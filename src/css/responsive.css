@@ -1,22 +1,27 @@
 @media(max-width:1440px){
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+    
     .container{
         margin-top: 10px;
         margin-bottom: 10px;
         color: hsl(24, 5%, 18%);
         display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: center;
         flex-wrap: wrap;
+        background-color: #fff;
+        max-width: 800px;
+        border-radius: 15px;
+        padding:50px;
+        
     }
     
     .container .card-nutricional{
-        background-color: #fff;
-        max-width: 800px;
-        display: flex;
-        flex-direction: column;
-        padding:50px;
-        border-radius: 15px;
+        text-align: center;
+        align-items: center;
+        
     
     }
     
@@ -193,37 +198,40 @@
     .container .sub-titulo  {
         list-style: none;
     }
-
+    
     .attribution{
-        margin-top: 30px;
-        text-align: center;
-        }
+    text-align: center;
+    }
 }
 
 @media(max-width:375px){
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+    
     .container{
         margin-top: 10px;
         margin-bottom: 10px;
         color: hsl(24, 5%, 18%);
         display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: center;
         flex-wrap: wrap;
+        background-color: #fff;
+        max-width: 800px;
+        border-radius: 15px;
+        padding:50px;
+        
     }
     
     .container .card-nutricional{
-        background-color: #fff;
-        max-width: 400px;
-        display: flex;
-        flex-direction: column;
-        padding:50px;
-        border-radius: 15px;
+        text-align: center;
+        align-items: center;        
     
     }
     
     .container .omelette{
-        max-width: 150px;
+        max-width: 700px;
         border-radius: 15px;    
     }
     
@@ -395,9 +403,8 @@
     .container .sub-titulo  {
         list-style: none;
     }
-
+    
     .attribution{
-        margin-top: 30px;
-        text-align: center;
-        }
+    text-align: center;
+    }
 }
