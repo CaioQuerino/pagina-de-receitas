@@ -1,0 +1,393 @@
+@media(max-width:1440px){
+    .container{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: hsl(24, 5%, 18%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .container .card-nutricional{
+        background-color: #fff;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        padding:50px;
+        border-radius: 15px;
+    
+    }
+    
+    .container .omelette{
+        max-width: 700px;
+        border-radius: 15px;    
+    }
+    
+    .container .prato, .descricao, .omelette{
+        text-align: left;
+        margin-bottom: 5%;
+        
+    }
+    
+    .container .prato{
+        font-family: 'Young Serif';
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .container .descricao{
+        font-family: 'Outfit';
+        font-weight: 400;
+        padding: 0px 30px 0px 0px;
+    }
+    
+    .container .preparation-time{
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 15px;
+        text-align: left;
+        padding: 5% 0% 5% 5%;
+    }
+    
+    .container .time-preparation-decoration{
+        color:   hsl(332, 51%, 32%);
+        font-family: 'Outfit';
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .container .preparation-time ul {
+        font-family: 'Outfit';
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;    
+        padding: 0px 0px 0px 20px;
+    }
+    
+    .container .preparation-time ul{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .container .total, .preparation, .cooking{
+        margin-left: 20px;
+        color: hwb(32 31% 63%);
+        font-weight: 700;
+    }
+    
+    .container .preparation-time .text-color{
+        color: hwb(32 31% 63%);;
+    }
+    
+    .container .ingredients .sub-titulo{
+        font-family: 'Young Serif';
+        font-size: 25px;
+        color: hsl(14, 45%, 36%);
+        
+    }
+    
+    .container .ingredients{
+        text-align: left;
+        padding: 5% 0% 5% 0%;
+    }
+    
+    .container .ingredients  ul {
+        color: hsl(332, 51%, 32%);
+        padding: 0% 0% 0% 3%;
+    }
+    
+    .container .ingredients  ul li{
+        padding: 0px 0px 0px 20px;
+    }
+    
+    .container .ingredients .text-color{
+        color: hwb(32 31% 63%);
+        font-family: 'Outfit';
+        font-size: 15px;
+        font-weight: 400;
+    
+    }
+    
+    .container .ingredients .sub-titulo{
+        margin-bottom: 10px;
+        font-weight: 400;
+    
+    }
+    
+    .container .instrucoes .text-color{
+        color: hwb(32 31% 63%);
+        font-family: 'Outfit';
+        font-weight: 700;
+        text-align: left;
+        padding: 0px 0px 0px 25px;
+    }
+    
+    .container .instrucoes ol{
+        padding: 0px 0px 0px 20px;
+    }
+    
+    .container .instrucoes {
+        font-family: 'Outfit';
+        font-weight: 400;
+        text-align: left;
+        max-width: max-content;
+    }
+    
+    .container .instrucoes .sub-titulo{
+        margin-bottom: 40px;
+        font-family: 'Young Serif';
+        font-weight: 400;
+        font-size: 25px;
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .container .instrucoes ul{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .container .instrucoes li{
+        color: hwb(32 31% 63%);
+        padding-bottom: 5px;
+    
+    }
+    
+    .container .nutrition .sub-titulo{
+        color: hsl(14, 45%, 36%);
+        font-family: 'Young Serif';
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        text-align: left;
+    
+    }
+    
+    hr{
+        margin: 30px;
+    }
+    
+    .container .nutrition .paragrafo{
+        width: 100%;
+        display: flex;
+        text-align: left;
+        font-family: 'Outfit';
+        font-weight: 400;
+        padding: 0px 0px 0px 50px;
+        
+    }
+    
+    .container .nutrition .info-nutri{
+        color: hsl(14, 45%, 36%);
+        font-weight: 600;
+        width: 100%;
+        padding: 0px 0% 0px 0%;
+        text-align: center;
+    }
+    
+    .container .nutrition .paragrafo1{
+        text-align: left;
+        font-family: 'Outfit';
+        margin-bottom: 40px;
+    }
+    
+    .container .sub-titulo  {
+        list-style: none;
+    }
+}
+
+@media(max-width:375px){
+    .container{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: hsl(24, 5%, 18%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .container .card-nutricional{
+        background-color: #fff;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        padding:50px;
+        border-radius: 15px;
+    
+    }
+    
+    .container .omelette{
+        max-width: 150px;
+        border-radius: 15px;    
+    }
+    
+    .container .prato, .descricao, .omelette{
+        text-align: left;
+        margin-bottom: 5%;
+        
+    }
+    
+    .container .prato{
+        font-family: 'Young Serif';
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .container .descricao{
+        font-family: 'Outfit';
+        font-weight: 400;
+        padding: 0px 30px 0px 0px;
+    }
+    
+    .container .preparation-time{
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 15px;
+        text-align: left;
+        padding: 5% 0% 5% 5%;
+    }
+    
+    .container .time-preparation-decoration{
+        color:   hsl(332, 51%, 32%);
+        font-family: 'Outfit';
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .container .preparation-time ul {
+        font-family: 'Outfit';
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;    
+        padding: 0px 0px 0px 20px;
+    }
+    
+    .container .preparation-time ul{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .container .total, .preparation, .cooking{
+        margin-left: 20px;
+        color: hwb(32 31% 63%);
+        font-weight: 700;
+    }
+    
+    .container .preparation-time .text-color{
+        color: hwb(32 31% 63%);;
+    }
+    
+    .container .ingredients .sub-titulo{
+        font-family: 'Young Serif';
+        font-size: 25px;
+        color: hsl(14, 45%, 36%);
+        
+    }
+    
+    .container .ingredients{
+        text-align: left;
+        padding: 5% 0% 5% 0%;
+    }
+    
+    .container .ingredients  ul {
+        color: hsl(332, 51%, 32%);
+        padding: 0% 0% 0% 3%;
+    }
+    
+    .container .ingredients  ul li{
+        padding: 0px 0px 0px 20px;
+    }
+    
+    .container .ingredients .text-color{
+        color: hwb(32 31% 63%);
+        font-family: 'Outfit';
+        font-size: 15px;
+        font-weight: 400;
+    
+    }
+    
+    .container .ingredients .sub-titulo{
+        margin-bottom: 10px;
+        font-weight: 400;
+    
+    }
+    
+    .container .instrucoes .text-color{
+        color: hwb(32 31% 63%);
+        font-family: 'Outfit';
+        font-weight: 700;
+        text-align: left;
+        padding: 0px 0px 0px 25px;
+    }
+    
+    .container .instrucoes ol{
+        padding: 0px 0px 0px 20px;
+    }
+    
+    .container .instrucoes {
+        font-family: 'Outfit';
+        font-weight: 400;
+        text-align: left;
+        max-width: max-content;
+    }
+    
+    .container .instrucoes .sub-titulo{
+        margin-bottom: 40px;
+        font-family: 'Young Serif';
+        font-weight: 400;
+        font-size: 25px;
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .container .instrucoes ul{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .container .instrucoes li{
+        color: hwb(32 31% 63%);
+        padding-bottom: 5px;
+    
+    }
+    
+    .container .nutrition .sub-titulo{
+        color: hsl(14, 45%, 36%);
+        font-family: 'Young Serif';
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        text-align: left;
+    
+    }
+    
+    hr{
+        margin: 30px;
+    }
+    
+    .container .nutrition .paragrafo{
+        width: 100%;
+        display: flex;
+        text-align: left;
+        font-family: 'Outfit';
+        font-weight: 400;
+        padding: 0px 0px 0px 50px;
+        
+    }
+    
+    .container .nutrition .info-nutri{
+        color: hsl(14, 45%, 36%);
+        font-weight: 600;
+        width: 100%;
+        padding: 0px 0% 0px 0%;
+        text-align: center;
+    }
+    
+    .container .nutrition .paragrafo1{
+        text-align: left;
+        font-family: 'Outfit';
+        margin-bottom: 40px;
+    }
+    
+    .container .sub-titulo  {
+        list-style: none;
+    }
+}
