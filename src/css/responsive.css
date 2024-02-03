@@ -193,6 +193,11 @@
     .container .sub-titulo  {
         list-style: none;
     }
+
+    .attribution{
+        margin-top: 30px;
+        text-align: center;
+        }
 }
 
 @media(max-width:375px){
@@ -390,4 +395,9 @@
     .container .sub-titulo  {
         list-style: none;
     }
+
+    .attribution{
+        margin-top: 30px;
+        text-align: center;
+        }
 }
