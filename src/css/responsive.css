@@ -209,6 +209,14 @@
     }
 }
 
+@media(max-width:576px){
+    .container .omelette{
+        max-width: 350px;
+        border-radius: 15px;    
+    }
+
+}
+
 @media(max-width:540px){
     .container .omelette{
         max-width: 450px;
@@ -216,13 +224,14 @@
     }
 }
 
-@media(max-width:412px){
+@media(max-width:480px){
     
     .container .omelette{
-        max-width: 300px;
+        max-width: 350px;
         border-radius: 15px;    
     }
 }
+
 
 @media(max-width:430px){
     
@@ -234,6 +243,14 @@
     .container .prato{
         font-family: 'Young Serif';
         font-size: 50px;
+    }
+}
+
+@media(max-width:412px){
+    
+    .container .omelette{
+        max-width: 300px;
+        border-radius: 15px;    
     }
 }
 
@@ -261,14 +278,13 @@
     }
 }
 
-@media(max-width:280px){
+@media(max-width:288px){
 
-    .container{
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        max-width: 100%;
+    .container .omelette{
+        max-width: 150px;
+        border-radius: 15px;    
     }
-
 }
+
+
 
