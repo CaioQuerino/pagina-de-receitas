@@ -202,9 +202,17 @@
    
 }
 
+
 @media(max-width:768px){
     .container .omelette{
         max-width: 600px;
+        border-radius: 15px;    
+    }
+}
+
+@media(max-width:580px){
+    .container .omelette{
+        max-width: 400px;
         border-radius: 15px;    
     }
 }
